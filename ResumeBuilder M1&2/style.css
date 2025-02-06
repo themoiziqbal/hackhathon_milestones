@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Stylish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Protest+Guerrilla&family=Stylish&display=swap');
+
+body{
+    background-color: rgba(15, 217, 231, 0.76);
+}
+
+/* Resume Header */
+
+header{
+    font-size: 2rem;
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 6px 4px #adadad;
+    text-align: center;
+    background-color: #0066ffad;
+    max-width: 100vw;
+    font-family: "Playwrite CU", cursive;
+    font-weight: 400;
+    /* padding: 26px; */
+}
+
+/* Resume Main Section -- Personal Information Section */
+
+#personal-info-section{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: 50px auto;
+    align-items: flex-end;
+}
+
+#personal-info-section #left{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    font-size: 1.3rem;
+}
+
+#personal-info-section #left span{
+    padding: 3px 0;
+    font-weight: 530;
+}
+
+
+#personal-info-section #left h1{
+    font-size: 2rem;
+    margin: 10px 0;
+    color: white;
+    text-shadow: 2px 4px 4px #8b8b8b;
+}
+
+#right img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Education Section */
+
+#education-section{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    max-width: 80vw;
+    margin: 50px auto;
+}
+
+
+#education-section h1{
+    font-size: 2rem;
+    margin: 10px 0;
+    color: white;
+    text-shadow: 2px 4px 4px #979797;
+}
+
+
+.edu-section{
+    padding: 10px 30px;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.edu-section span{
+    padding: 3px 0;
+    font-weight: 750;
+}
+
+
+/* Skills Section  */
+
+#skills-section{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    max-width: 80vw;
+    margin: 50px auto;
+}
+
+#skills-section h1{
+    font-size: 2rem;
+    margin: 10px 0;
+    color: white;
+    text-shadow: 2px 4px 4px #a0a0a0;
+}
+
+#mastery-section{
+    padding: 10px 30px;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#mastery-section span{
+    padding: 3px 0;
+    font-weight: 530;
+}
+
+/* Work Experience - Section */
+
+#work-exp-section{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    max-width: 80vw;
+    margin: 50px auto;
+}
+
+#work-section h1{
+    font-size: 2rem;
+    margin: 10px 0;
+    color: white;
+    text-shadow: 2px 4px 4px #a3a3a3;
+}
+
+#work-section{
+    padding: 10px 30px;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#work-section span{
+    padding: 3px 0;
+    font-weight: 530;
+}
+
+/* Languages - Section */
+
+#language-section{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    max-width: 80vw;
+    margin: 50px auto;
+}
+
+#lang-section h1{
+    font-size: 2rem;
+    margin: 10px 0;
+    color: white;
+    text-shadow: 2px 4px 4px #8d8d8d;
+}
+
+#lang-section{
+    padding: 10px 30px;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#lang-section span{
+    padding: 3px 0;
+    font-weight: 530;
+}
+
+/* Toggle Button */
+#button-section{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    max-width: 80vw;
+    margin: 50px auto;
+}
+
+#toggle-skills{
+    height: 60px;
+    width: 130px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px #9b9b9b;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+#toggle-skills:hover{
+    background-color: rgb(112, 173, 248);
+
+}
+
+
+/* Footer Section */
+.footer{
+    background-color: rgb(173, 173, 173);
+    color: white;
+    text-align: center;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer-section{
+    flex: 1;
+    margin: 20px;
+    min-width: 100px;
+}
+
+.footer-section ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.footer-section ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-section ul li a:hover{
+   color: lightgray;
+   text-decoration: underline;
+}
+
+.footer-section div a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.footer-section div a:hover{
+    color: lightgray;
+    text-decoration: underline;
+}
+
+.footer-section h2{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px ;
+}
+
+.footer-section p,
+.footer-section ul,
+.social-links{
+    padding: 0;
+    margin: 10px 0;
+}
+
+.footer-bottom{
+    background-color: rgb(150, 150, 150);
+    border-top: 1px solid rgb(216, 216, 216);
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.footer-bottom{
+    margin: 0;
+}
+
+@media only screen and (max-width: 1280px) {
+    #personal-info-section{
+        max-width: 85vw;
+    }
+    #education-section{
+        max-width: 85vw;
+    }
+    #skills-section{
+        max-width: 85vw;
+    }
+    #work-exp-section{
+        max-width: 85vw;
+    }
+    #language-section{
+        max-width: 85vw;
+    }
+    
+}
+
+@media only screen and (max-width: 920px) {
+    #personal-info-section{
+        max-width: 90vw;
+    }
+    #education-section{
+        max-width: 90vw;
+    }
+    #skills-section{
+        max-width: 90vw;
+    }
+    #work-exp-section{
+        max-width: 90vw;
+    }
+    #language-section{
+        max-width: 90vw;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    header{
+        font-size: 1.4rem;
+    }
+
+    #personal-info-section{
+        flex-direction: column-reverse;
+        max-width: 98vw;
+        align-items: self-start;
+    }
+
+    #personal-info-section h1{
+        font-size: 1rem;
+    }
+
+    #personal-info-section, #education-section, #skills-section,
+     #work-exp-section, #language-section span{
+        font-size: 1.2rem;
+    }
+
+    #education-section{
+        max-width: 98vw;
+    }
+    #skills-section{
+        max-width: 98vw;
+    }
+    #work-exp-section{
+        max-width: 98vw;
+    }
+    #language-section{
+        max-width: 98vw;
+    }
+    #toggle-skills{
+        width: 150px;
+        height: 50px;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+}
